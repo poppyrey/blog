@@ -1,0 +1,53 @@
+body{padding-bottom: 50px;}
+.navbar{margin-bottom: 0;}
+.carousel{height: 600px;background-color: #000000;}
+.carousel .item{height: 600px;background-color: #000000;}
+.carousel img{width: 100%;}
+.carousel-caption h1{color: #191970;}
+hr .divider{padding: 5px 0px;width: 10px;}
+.coffeetea img{width: 100px;height: 100px;}
+.picbg{background-color:#D8BFD8;}
+.picbg p {line-height: 25px;}
+.img-responsive{height: 350px;width: 100%;}
+
+#summary-container{padding: 20px 0;}
+.text-indent{text-indent: 25px;}
+.four{padding: 30px;background-color: #6A5ACD;color: white;}
+.four .row:nth-child(1){background-color: rgba(255,255,255,0.1);}
+.four .col-md-6:nth-child(1){background-color: rgba(0,0,0,0.1);}
+.four .col-md-6:nth-child(2){background-color: rgba(0,0,0,0.2);}
+.four .col-md-6:nth-child(3){background-color: rgba(0,0,0,0.3);}
+.four .col-md-6:nth-child(4){background-color: rgba(0,0,0,0.4);}
+.four .col-md-6:nth-child(5){background-color: rgba(0,0,0,0.5);}
+.four .col-md-6:nth-child(6){background-color: rgba(0,0,0,0.6);}
+.four img{width: 150px;height: 150px;}
+.four .media{padding: 20px 0;}
+#mask{ 
+	background-color:#ccc;
+	opacity:0.5;
+	filter: alpha(opacity=50); 
+	position:absolute; 
+	left:0;
+	top:0;
+	z-index:100;
+	}
+#login{ 
+	position:fixed;
+	z-index:1001;
+	}
+.loginCon{ 
+	position:relative; 
+	width:670px;
+	height:380px;
+	background:url(../img/loginBg.png) #2A2C2E center center no-repeat;
+	}
+#close{ 
+	background:url(../img/close.png) no-repeat; 
+	width:30px; 
+	height:30px; 
+	cursor:pointer; 
+	position:absolute; 
+	right:5px; 
+	top:15px; 
+	text-indent:-999em;
+	}
